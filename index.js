@@ -183,3 +183,4 @@ client.on(Events.MessageCreate, async message => {
   await registerCommands();
   await client.login(TOKEN);
 })();
+
